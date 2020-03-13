@@ -2,7 +2,6 @@
     // destroyed
 // firepower** is the amount of damage done to the **hull** of the target
 // accuracy** is the chance between 0 and 1
-console.log(`kat`);
 
 class USship {
     constructor(hull = 20, firepower = 5, accuracy = .7){
@@ -14,6 +13,14 @@ console.log(USship);
 
 class AlienShip{
     constructor(hull = 3, firepower = 2, accuracy = .6){
+        //generate btw 3 and 6
+        // this.firepower = ((Math.random() * (6 - 3) +3));
+        this.hull=hull;
+
+        //generates a num btw 2 and 4
+        this.firepower = ((Math.random() * (4 - 2) +2));
+        //generats a num btw .6 and .8
+        this.accuracy = ((Math.random() * (8 - 6) +6) /10);
 
     }
 }
