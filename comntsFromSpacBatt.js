@@ -116,6 +116,8 @@
 // // function accuracy(.7);
 // // console.log($ { Math.random() })
 
+console.log(`kat`)
+
 
 
 
